@@ -1,0 +1,17 @@
+Lab Task 1
+Regular expression for floating point numbers with length not greater than 6:
+
+^-?\d{1,4}(\.\d{1,2})?$
+
+
+Lab Task 2
+Single regular expression for numbers like 8e4, 5e-2, 6e9:
+
+^\d+e-?\d+$
+
+
+Lab Task 3
+Regular expression for finding all words starting with ‘t’ and ‘m’:
+
+\b[tT][a-zA-Z]*\b|\b[mM][a-zA-Z]*\b
+
